@@ -3,11 +3,11 @@
 # After each release: bump `version`, replace both sha256 values
 # (shasum -a 256 <file>, or copy from the release's *.sig-adjacent checksums).
 cask "minive" do
-  version "0.2.0"
+  version "0.3.0"
 
   arch arm: "aarch64", intel: "x64"
-  sha256 arm:   "283a559f938275cc96f907fb419df3794dcff84fb9c067ee7efc32255a96675a",
-         intel: "4ed8c26e14d4fd3684d25fec390d74d28671e1e70a43190792e2a6a1239d1894"
+  sha256 arm:   "46fdd0fdb3a1d348970fc2ed9177e78a92d58ce386e647ff8b2cbe70ca86f9d4",
+         intel: "352fc21da6fdc30b1fb635db8d3b8b01a20b84e0ab09b8ee0e18a07cdececdfc"
 
   url "https://github.com/SahilSidhu7/miniVE/releases/download/v#{version}/miniVE_#{version}_#{arch}.dmg"
   name "miniVE"
